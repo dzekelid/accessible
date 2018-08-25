@@ -8,14 +8,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Accessible
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: client-library-for-accessing-the-square-connect-apis
+- name: Square Connect - Deletes a timecard. Deleted timecards are still accessible
+    from Connect API endpoints, but the value of their deleted field is set to true.
+    See Handling deleted timecards for more information.
+  x-api-slug: v1metimecardstimecard-id-delete
+  description: Deletes a timecard. Deleted timecards are still accessible from Connect
+    API endpoints, but the value of their deleted field is set to true. See Handling
+    deleted timecards for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
   baseURL: https://connect.squareup.com//
@@ -27,18 +31,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/square/v1metimecardstimecard-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/square/v1metimecardstimecard-id-delete-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Accessible
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/square/openapi.md
 x-common:
 - type: x-website
   url: http://square.com
