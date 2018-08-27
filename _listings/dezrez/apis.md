@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Accessible
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Sets the document privacy for an existing document.  This
+    is used to change a document from being publicly accessible to being private,
+    and vice versa.
+  x-api-slug: apidocumentsetprivacy-put
+  description: Sets the document privacy for an existing document.  this is used to
+    change a document from being publicly accessible to being private, and vice versa..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accessible/master/_listings/dezrez/apidocumentsetprivacy-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
